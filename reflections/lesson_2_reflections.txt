@@ -1,0 +1,5 @@
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+Staging area lets you choose which files to commit. There may be files that you dont want to be part
+of every commit even though they are in initialized directories. 
