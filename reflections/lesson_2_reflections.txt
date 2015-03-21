@@ -3,3 +3,18 @@ What value do you think it offers?
 
 Staging area lets you choose which files to commit. There may be files that you dont want to be part
 of every commit even though they are in initialized directories. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+check the diff before you commit/stage to make sure that you only stage one specific change at a time. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+the evolution of code is usually non-linear, as such branches help by allowing you to have a more modular approach to making changes to a code base, and then being able to design quickly and iteratively, while always being able to look back at the older versions of the game. 
+
+How do the diagrams help you visualize the branch structure?
+easy to track structure and parents
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging coins together makes all the changes to the files that those files themselves had included since the last time that the files shared a parent. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+advantages are that git's automatic merges allow for faster code combinations. The disadvantages could be that whne you merge files on your own you could think of other more efficient ways to combine or integrate the two different versions. For example, maybe you could use functions from each version, or maybe you could reduce redundant functions. 
