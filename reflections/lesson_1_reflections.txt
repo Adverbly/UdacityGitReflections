@@ -1,0 +1,20 @@
+havent looked at the auto diff yet. When I did it manually, I found all of the errors but it took time. 
+
+having a long list of file histories allows for big data analytics or tracking progress of a product, but more importantly, 
+having a history allows you to easily identify exact file states when certain bugs occurred, and when the bugs were and possibly were not present.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros in that it is clear where logical changes are made between files. Also pro in having less data
+Cons are that you may forget or improperly use it, also, it takes time to actually save. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Make it easier on users. Also, data requirements. Also, in git the relationships between files is extremely important, where for a google doc there is arguably less importance to the links between files.
+
+How can you use the commands git log and git diff to view the history of files?
+log shows all the commits, diff shows differences between 2 commits
+
+How might using version control make you more confident to make changes that could break something?
+You can compare checkouts to hone in on the exact differences between files and easily see the behavioral differences as a result of the change in source code. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use git for uploading my programs to github and for saving all of my code. 
